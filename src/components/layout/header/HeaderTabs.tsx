@@ -7,21 +7,12 @@ const HeaderTabs =() => {
         <header>
         <Tabs variant='soft-rounded' colorScheme='green'>
             <TabList>
-                <Tab><Link to="/">Tab 1</Link></Tab>
-                <Tab><Link to="/vilnius">Tab 1</Link>Tab 2</Tab>
-                <Tab><Link to="/kaunas">Tab 2</Link></Tab>
-                <Tab><Link to="/klaipeda">Tab 1Tab 2</Link></Tab>
-                <Tab><Link to="/siauliai">Tab 1Tab 1Tab 2</Link></Tab>
-
+                <Tab><Link to="/">Main Page</Link></Tab>
+                <Tab><Link to="/vilnius">Vilnius</Link></Tab>
+                <Tab><Link to="/kaunas">Kaunas</Link></Tab>
+                <Tab><Link to="/klaipeda">Klaipeda</Link></Tab>
+                <Tab><Link to="/siauliai">Siauliai</Link></Tab>
             </TabList>
-            <TabPanels>
-                <TabPanel>
-                    <p>one!</p>
-                </TabPanel>
-                <TabPanel>
-                    <p>two!</p>
-                </TabPanel>
-            </TabPanels>
         </Tabs>
         </header>
     )

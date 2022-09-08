@@ -10,21 +10,18 @@ import HeaderTabs from "./components/layout/header/HeaderTabs";
 
 function App() {
   return (
-      <div>
-
+    <div>
     <ChakraProvider>
         <HeaderTabs/>
-
-
-
-
-
-
-
-
-
+        <Routes>
+            <Route path="/" element={<MainPage/>}/>
+            <Route path="/vilnius" element={<VilniusPage />}/>
+            <Route path="/kaunas" element={<KaunasPage />}/>
+            <Route path="/klaipeda" element={<KlaipedaPage />}/>
+            <Route path="/siauliai" element={<SiauliaiPage />}/>
+        </Routes>
     </ChakraProvider>
-    </div>
+</div>
   );
 }
 
