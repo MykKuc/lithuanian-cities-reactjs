@@ -1,7 +1,9 @@
+import {Textarea} from "@chakra-ui/react";
 
-
-const Textarea =() => {
+const OpinionTextarea =() => {
     return(
-        <Textarea placeholder='Here is a sample placeholder' />
+        <Textarea placeholder='Enter your feedback about the website' />
     )
 }
+
+export default OpinionTextarea;
